@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/amritapcl/trend-devops.git'
+                    url: 'https://github.com/amritapcl30/trend-devops.git'
             }
         }
 
