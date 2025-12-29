@@ -1,0 +1,25 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Build output
+dist/
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+# SSH keys
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jenkins
+jenkins_home/
+
+# Logs
+*.log
